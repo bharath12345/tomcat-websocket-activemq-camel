@@ -17,7 +17,6 @@ import javax.jms.Session;
 public class JSONFeed {
 
     private static FeedThread feedThread;
-    private static StockRouter stockRouter;
 
     public static void main(String args[]) {
 		JSONFeed feed = new JSONFeed();
@@ -30,8 +29,6 @@ public class JSONFeed {
             System.out.println("bharath: postconstruct");
 
             ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("vm://localhost:61616");
-
-            stockRouter = new StockRouter(connectionFactory);
 
             feedThread = new FeedThread(connectionFactory) {
                 @Override
@@ -63,12 +60,10 @@ public class JSONFeed {
 
 	public void start() {
 		feedThread.start();
-        stockRouter.start();
 	}
 
 	public void stop() {
         feedThread.running = false;
 		feedThread = null;
-        stockRouter = null;
 	}
 }

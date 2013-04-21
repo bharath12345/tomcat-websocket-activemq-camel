@@ -9,7 +9,6 @@
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target/camel-1.0" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
-      <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
       <excludeFolder url="file://$MODULE_DIR$/target/surefire" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -71,10 +70,15 @@
     <orderEntry type="library" name="Maven: commons-net:commons-net:3.1" level="project" />
     <orderEntry type="library" name="Maven: org.jasypt:jasypt:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.xbean:xbean-spring:3.5" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-camel:5.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-pool:5.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-camel:5.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-spring:5.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-broker:5.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-client:5.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-openwire-legacy:5.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-pool:5.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-kahadb-store:5.8.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test:2.10.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
