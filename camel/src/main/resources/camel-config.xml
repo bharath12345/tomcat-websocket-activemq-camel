@@ -34,7 +34,7 @@
         <route>
             <from uri="activemq:topic:stockQuoteTopic"/>
             <log message="Routing message from jms topic to websocket with data ${body}"/>
-            <to uri="websocket://localhost:9090/stockQuoteTopic?sendToAll=true"/>
+            <to uri="websocket://0.0.0.0:9090/stockQuoteTopic?sendToAll=true"/>
         </route>
 
     </camelContext>
